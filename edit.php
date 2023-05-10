@@ -64,6 +64,8 @@
                     <td><input type="date" name="date" value="<?= $history['date']; ?>"></td>
                     <td><input type="text" name="product" value="<?= $history['product']; ?>"></td>
                     <td>￥<input type="number" name="price" value="<?= $history['price']; ?>"></td>
+                    <td><input type="radio" name="type" value="0" checked>収入</td>
+                    <td><input type="radio" name="type" value="1">支出</td>
                     <td><button type="submit">更新</button></td>
                 </tr>
                 <?php endforeach ?>

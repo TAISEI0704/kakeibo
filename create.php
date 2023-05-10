@@ -3,7 +3,6 @@
 
     if(!empty($_POST)){
         if(empty($_POST['date'])){
-            // echo '<a href="./index.php">戻る</a>>';
             exit('<p>日付が入力されていません</p>'.'<br>'.'<a href="./index.php">戻る</a>');
         }
         if(empty($_POST['product'])){
@@ -52,7 +51,7 @@
             <input type="number" name="price" value="">
             <br><br>
         </div>
-        <!-- <div>
+        <div>
             <div>
                 <input type="radio" name="type" value="0" checked>
                 収入
@@ -61,7 +60,7 @@
                 <input type="radio" name="type" value="1">
                 支出
             </div>
-        </div> -->
+        </div>
         <input type="submit" value="追加">
     </form>
 

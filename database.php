@@ -19,11 +19,9 @@
         //データベースに保存
         function store($input){
             $dbh = $this ->connect();
-            $stmt = $dbh -> prepare('INSERT INTO history SET date=?,product=?,price=?');
-            $stmt -> execute([$input['date'],$input['product'],$input['price']]);
 
-            // $stmt = $dbh -> prepare('INSERT INTO history SET date=?,product=?,price=?,type=?');
-            // $stmt -> execute([$input['date'],$input['product'],$input['price'],$input['type']]);
+            $stmt = $dbh -> prepare('INSERT INTO history SET date=?,product=?,price=?,type=?');
+            $stmt -> execute([$input['date'],$input['product'],$input['price'],$input['type']]);
         }
 
         //データベース全取得
@@ -47,8 +45,8 @@
         //情報更新処理
         function update($input){
             $dbh = $this ->connect();
-            $stmt = $dbh -> prepare('UPDATE history SET date=?,product=?,price=? WHERE id=?');
-            $stmt -> execute([$input['date'],$input['product'],$input['price'],$input['id']]);
+            $stmt = $dbh -> prepare('UPDATE history SET date=?,product=?,price=?,type=? WHERE id=?');
+            $stmt -> execute([$input['date'],$input['product'],$input['price'],$input['type'],$input['id']]);
         }
 
         //削除処理

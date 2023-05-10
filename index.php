@@ -53,8 +53,8 @@
                             <th>登録日付</th>
                             <th>登録内容</th>
                             <th>金額</th>
-                            <td></td>
-                            <td></td>
+                            <th>収入</th>
+                            <th>支出</th>
                             <!-- </div> -->
                         </tr>
                     </thead>
@@ -67,6 +67,22 @@
                         <td><?= $history['date']; ?></td>
                         <td><?= $history['product']; ?></td>
                         <td><?= '￥'.$history['price']; ?></td>
+                        <td>
+                            <? if ($history['type'] === 0){
+                                echo '収入';
+                            }else{
+                                echo '';
+                            } ?>
+                        </td>
+                        <td>
+                            <? if ($history['type'] === 1){
+                                echo '支出';
+                            }else{
+                                echo '';
+                            } ?>
+                        </td>
+                            
+                        
                         <td class="edit"><a href="./edit.php?id=<?= $history['id']; ?>"><i class="fas fa-edit" style="color: #44444c;"></i>編集</a></td>
                         <td class="delete"><a href="./index.php?id=<?= $history['id']; ?>"><i class="fas fa-eraser" style="color: #44444c;"></i>削除</a></td>
                     </tr>
