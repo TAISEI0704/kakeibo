@@ -84,7 +84,7 @@
                         </td>
                             
                         
-                        <td class="edit">
+                        <td>
                             <a href="./edit.php?id=<?= $history['id']; ?>" class="edit_button"><i class="fas fa-edit" style="color: #44444c;"></i>編集</a>
                             <a href="./index.php?id=<?= $history['id']; ?>" class="delete_button"><i class="fas fa-eraser" style="color: #44444c;"></i>削除</a>
                         </td>
