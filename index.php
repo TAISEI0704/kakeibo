@@ -22,9 +22,9 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>家計簿TOP</title>
-    <!-- <link rel="stylesheet" href="./assets/css/reset.css"> -->
-    <!-- <link rel="stylesheet" href="./assets/css/style.css"> -->
-    <!-- <link href="https://use.fontawesome.com/releases/v5.6.1/css/all.css" rel="stylesheet"> -->
+    <!-- <link rel="stylesheet" href="./assets/css/reset.css">
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <link href="https://use.fontawesome.com/releases/v5.6.1/css/all.css" rel="stylesheet"> -->
 </head>
 
 <?php  ?>
@@ -52,9 +52,10 @@
                             <!-- <th>ID</th> -->
                             <th>登録日付</th>
                             <th>登録内容</th>
-                            <th>金額</th>
+                            <!-- <th>金額</th> -->
                             <th>収入</th>
                             <th>支出</th>
+                            <td></td>
                             <!-- </div> -->
                         </tr>
                     </thead>
@@ -66,25 +67,28 @@
                         <!-- <td><?= $history['id']; ?></td> -->
                         <td><?= $history['date']; ?></td>
                         <td><?= $history['product']; ?></td>
-                        <td><?= '￥'.$history['price']; ?></td>
+                        <!-- <td><?= '￥'.$history['price']; ?></td> -->
                         <td>
                             <? if ($history['type'] === 0){
-                                echo '収入';
+                                echo '￥'.$history['price'];
                             }else{
                                 echo '';
                             } ?>
                         </td>
                         <td>
                             <? if ($history['type'] === 1){
-                                echo '支出';
+                                echo '￥'.$history['price'];;
                             }else{
                                 echo '';
                             } ?>
                         </td>
                             
                         
-                        <td class="edit"><a href="./edit.php?id=<?= $history['id']; ?>"><i class="fas fa-edit" style="color: #44444c;"></i>編集</a></td>
-                        <td class="delete"><a href="./index.php?id=<?= $history['id']; ?>"><i class="fas fa-eraser" style="color: #44444c;"></i>削除</a></td>
+                        <td class="edit">
+                            <a href="./edit.php?id=<?= $history['id']; ?>"><i class="fas fa-edit" style="color: #44444c;"></i>編集</a>
+                            <a href="./index.php?id=<?= $history['id']; ?>"><i class="fas fa-eraser" style="color: #44444c;"></i>削除</a>
+                        </td>
+                        <!-- <td class="delete"></td> -->
                     </tr>
                     <?php endforeach ?>
                 </tbody>
