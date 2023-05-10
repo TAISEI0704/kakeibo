@@ -22,9 +22,9 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>家計簿TOP</title>
-    <!-- <link rel="stylesheet" href="./assets/css/reset.css">
+    <link rel="stylesheet" href="./assets/css/reset.css">
     <link rel="stylesheet" href="./assets/css/style.css">
-    <link href="https://use.fontawesome.com/releases/v5.6.1/css/all.css" rel="stylesheet"> -->
+    <link href="https://use.fontawesome.com/releases/v5.6.1/css/all.css" rel="stylesheet">
 </head>
 
 <?php  ?>
@@ -85,8 +85,8 @@
                             
                         
                         <td class="edit">
-                            <a href="./edit.php?id=<?= $history['id']; ?>"><i class="fas fa-edit" style="color: #44444c;"></i>編集</a>
-                            <a href="./index.php?id=<?= $history['id']; ?>"><i class="fas fa-eraser" style="color: #44444c;"></i>削除</a>
+                            <a href="./edit.php?id=<?= $history['id']; ?>" class="edit_button"><i class="fas fa-edit" style="color: #44444c;"></i>編集</a>
+                            <a href="./index.php?id=<?= $history['id']; ?>" class="delete_button"><i class="fas fa-eraser" style="color: #44444c;"></i>削除</a>
                         </td>
                         <!-- <td class="delete"></td> -->
                     </tr>
