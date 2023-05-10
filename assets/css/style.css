@@ -20,7 +20,7 @@ button{
 
 
 
-a{
+.register_button{
     padding: 5px;
     font-size: 15px;
     text-decoration: none;
@@ -115,11 +115,11 @@ tbody tr td a{
     border-radius: 10%;
 }
 
-.edit .edit_button{
+tbody td .edit_button{
     background-color: rgb(103, 240, 137);
 }
 
-.edit .delete_button{
+tbody td .delete_button{
     background-color: #fc4747;
     margin-right: 5px;
 }

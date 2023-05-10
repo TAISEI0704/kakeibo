@@ -34,8 +34,8 @@
         <h1>家計簿</h1>
     </div>
 
-    <div class="register_button">
-        <button><a href="./create.php">+新規登録</a></button>
+    <div>
+        <button><a href="./create.php" class="register_button">+新規登録</a></button>
     </div>
 
     <div class="record">
@@ -85,10 +85,10 @@
                             
                         
                         <td>
-                            <a href="./edit.php?id=<?= $history['id']; ?>" class="edit_button"><i class="fas fa-edit" style="color: #44444c;"></i>編集</a>
-                            <a href="./index.php?id=<?= $history['id']; ?>" class="delete_button"><i class="fas fa-eraser" style="color: #44444c;"></i>削除</a>
+                            <a class="edit_button" href="./edit.php?id=<?= $history['id']; ?>"><i class="fas fa-edit" style="color: #44444c;"></i>編集</a>
+                            <!-- <a class="delete_button" href="./index.php?id=<?= $history['id']; ?>"><i class="fas fa-eraser" style="color: #44444c;"></i>削除</a> -->
                         </td>
-                        <!-- <td class="delete"></td> -->
+                        <td class="delete"><a class="delete_button" href="./index.php?id=<?= $history['id']; ?>"><i class="fas fa-eraser" style="color: #44444c;"></i>削除</a></td>
                     </tr>
                     <?php endforeach ?>
                 </tbody>
