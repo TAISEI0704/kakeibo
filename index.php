@@ -86,9 +86,9 @@
                         
                         <td>
                             <a class="edit_button" href="./edit.php?id=<?= $history['id']; ?>"><i class="fas fa-edit" style="color: #44444c;"></i>編集</a>
-                            <!-- <a class="delete_button" href="./index.php?id=<?= $history['id']; ?>"><i class="fas fa-eraser" style="color: #44444c;"></i>削除</a> -->
+                            <a class="delete_button" href="./index.php?id=<?= $history['id']; ?>"><i class="fas fa-eraser" style="color: #44444c;"></i>削除</a>
                         </td>
-                        <td class="delete"><a class="delete_button" href="./index.php?id=<?= $history['id']; ?>"><i class="fas fa-eraser" style="color: #44444c;"></i>削除</a></td>
+                        <!-- <td class="delete"><a class="delete_button" href="./index.php?id=<?= $history['id']; ?>"><i class="fas fa-eraser" style="color: #44444c;"></i>削除</a></td> -->
                     </tr>
                     <?php endforeach ?>
                 </tbody>

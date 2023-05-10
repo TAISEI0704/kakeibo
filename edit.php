@@ -47,6 +47,10 @@
     <link href="https://use.fontawesome.com/releases/v5.6.1/css/all.css" rel="stylesheet">
 </head>
 <body>
+    <div>
+        <h2>履歴更新</h2>
+    </div>
+
     <form method="POST" action="">
         <table>
             <thead>
@@ -54,6 +58,8 @@
                     <th>登録日付</th>
                     <th>登録内容</th>
                     <th>金額</th>
+                    <td></td>
+                    <td></td>
                     <td></td>
                 </tr>
             </thead>

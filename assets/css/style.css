@@ -18,12 +18,16 @@ button{
     border-radius: 10%;
 }
 
+a{
+    text-decoration: none;
+    color: #f5f4f9;
+}
+
 
 
 .register_button{
     padding: 5px;
     font-size: 15px;
-    text-decoration: none;
     color: #f5f4f9;
 }
 
@@ -113,6 +117,7 @@ tbody tr td:last-child{
 tbody tr td a{
     padding: 3px;
     border-radius: 10%;
+
 }
 
 tbody td .edit_button{
