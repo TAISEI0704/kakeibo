@@ -75,7 +75,7 @@
                         <input type="radio" name="type" value="0" checked>収入
                         <input type="radio" name="type" value="1">支出
                     </td>
-                    <td><button type="submit">更新</button></td>
+                    <td><button type="submit"><i class="fas fa-undo-alt" style="color: #000000;"></i> 更新</button></td>
                 </tr>
                 <?php endforeach ?>
             </tbody>

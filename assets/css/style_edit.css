@@ -5,17 +5,18 @@
 
 div{
     font-size: 20px;
-    margin: 35px 0 20px 0;
+    margin: 20px 0;
     padding: 10px 0;
 }
 
 h2{
     text-align: center;
+    padding-top: 10px;
 }
 
 form{
-    margin: 30px auto;
-    padding: 30px 0 10px 0;
+    margin: 30px 0 10px 0;
+    padding: 30px 0 0 0;
 }
 
 
@@ -94,8 +95,10 @@ tbody tr td button{
     text-align: right;
 }
 
-a{  
-    margin: 0 10px;
+a{  background-color: rgb(217, 255, 128);
+    border-radius: 6px;
+    padding: 5px 8px;
+    margin: auto 30px;
     text-decoration: none;
     font-size: 15px;
 }

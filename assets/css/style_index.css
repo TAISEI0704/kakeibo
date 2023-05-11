@@ -7,7 +7,7 @@ h1{
     font-size: 30px;
     text-align: center;
     padding: 10px;
-    margin: 10px;
+    margin: 30px 0 20px 0;
 }
 
 button{
@@ -16,6 +16,8 @@ button{
     border: none;
     background-color: #ffc300;
     border-radius: 10%;
+    position: relative;
+    left: 9.5vw;
 }
 
 a{
