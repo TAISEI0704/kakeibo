@@ -149,7 +149,15 @@ input{
 
 /*  */
 
-.edit_body{
+/* .edit_body{
     padding: 10px;
     margin:5px;
 }
+
+.edit_body thead tr th,
+.edit_body thead tr td{
+    width: 15vh;
+} */
+
+
+

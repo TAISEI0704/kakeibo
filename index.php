@@ -23,7 +23,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>家計簿TOP</title>
     <link rel="stylesheet" href="./assets/css/reset.css">
-    <link rel="stylesheet" href="./assets/css/style.css">
+    <link rel="stylesheet" href="./assets/css/style_index.css">
     <link href="https://use.fontawesome.com/releases/v5.6.1/css/all.css" rel="stylesheet">
 </head>
 
