@@ -64,7 +64,6 @@
                     <th>金額</th>
                     <th>収支</th>
                     <td></td>
-                    <!-- <td></td> -->
                 </tr>
             </thead>
             <tbody>
