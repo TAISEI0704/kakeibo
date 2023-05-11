@@ -1,4 +1,5 @@
 body{
+    padding: 10px;
     background-color: #d6ced1;
 }
 
@@ -10,7 +11,7 @@ h1{
     margin: 30px 0 20px 0;
 }
 
-button{
+.create{
     padding: 5px 10px;
     margin: 15px;
     border: none;
@@ -33,10 +34,10 @@ a{
     color: #f5f4f9;
 }
 
-div{
+/* div{
     width: auto;
     height: auto;
-}
+} */
 
 .record{
     /* background-color: aqua; */
@@ -49,7 +50,7 @@ div{
     margin: 10px 5px;
 }
 
-h2 {
+.record h2 {
     font-size: 20px;
 }
 
@@ -58,7 +59,7 @@ h2 {
     font-size: 20px;
 }
 
-.table{
+.record .table{
     /* background-color: #fc4747; */
     margin: 0 auto;
 }
@@ -116,9 +117,9 @@ tbody tr td:last-child{
     width: 5vw;
 }
 
-.edit{
+/* .edit{
     padding: 0 5px 0 100px;
-}
+} */
 
 tbody tr td a{
     padding: 3px;
@@ -126,11 +127,11 @@ tbody tr td a{
 
 }
 
-tbody td .edit_button{
+.record tbody td .edit_button{
     background-color: rgb(103, 240, 137);
 }
 
-tbody td .delete_button{
+.record tbody td .delete_button{
     background-color: #fc4747;
     margin-right: 5px;
 }
@@ -148,5 +149,92 @@ tbody td .delete_button{
     width: 15vh;
 } */
 
+.edit div{
+    font-size: 20px;
+    margin: 20px 0;
+    padding: 10px 0;
+}
 
+.edit h2{
+    /* text-align: center; */
+    padding-top: 10px;
+}
 
+.edit form{
+    margin: 30px 0 10px 0;
+    padding: 30px 0 0 0;
+}
+
+.input{
+    font-size: 12px;
+    font-weight: 500;
+    width: 90px;
+    height: 18px;
+    padding: 5px;
+}
+
+tbody tr td button{
+    padding: 5px 10px;
+    font-size: 13px;
+    font-weight: 600;
+    background-color: rgb(141, 237, 237);
+    border: none;
+    border-radius: 6px;
+}
+
+.back_page{
+    display: block;
+    text-align: right;
+}
+
+.back_page a{  background-color: rgb(217, 255, 128);
+    border-radius: 6px;
+    padding: 5px 8px;
+    margin: auto 30px;
+    text-decoration: none;
+    font-size: 15px;
+}
+
+.create h2{
+    margin: 20px 0;
+    /* text-align: center; */
+    padding: 20px 0 10px 0;
+}
+
+.create form{
+
+    text-align: center;
+    margin: 20px 0 10px 0;
+    padding: 30px 0 30px 0;
+    /* display: flex;
+    align-items: center;
+    justify-content: space-around; */
+}
+
+.create form div{
+    margin: 0 auto;
+    width: 50vw;
+    text-align: center;
+}
+
+.create form div div{
+    margin: 5px 0;
+    padding: 15px 0;
+    border-top: 2px dashed rgb(247, 166, 166);
+    font-size: 15px;
+}
+
+#input{
+    width: 110px;
+}
+
+.create .submit{
+    position: relative;
+    /* left: 20vw; */
+    font-size: 13px;
+    padding: 5px 10px;
+    margin: 5px;
+    background-color: #9c9cff;
+    border: 0.3px solid black;
+    border-radius: 5px;
+}

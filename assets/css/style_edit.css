@@ -1,37 +1,37 @@
-.edit_body{
+/* body{
     padding: 10px;
     background-color: antiquewhite;
-}
+} */
 
-div{
+.edit div{
     font-size: 20px;
     margin: 20px 0;
     padding: 10px 0;
 }
 
-h2{
-    text-align: center;
+.edit h2{
+    /* text-align: center; */
     padding-top: 10px;
 }
 
-form{
+.edit form{
     margin: 30px 0 10px 0;
     padding: 30px 0 0 0;
 }
 
 
 
-table{
+/* table{
     margin: auto;
-    /* width: auto; */
-    /* background-color: #f5f4f9; */
+    width: auto;
+    background-color: #f5f4f9;
     border-radius: 5px;
-    /* border: 1px solid black; */
+    border: 1px solid black;
     border-collapse:separate;
     border-spacing: 0px 5px;
     table-layout: fixed;
-}
-
+} */
+/* 
 thead tr th,
 thead tr td{
     white-space: nowrap;
@@ -40,7 +40,7 @@ thead tr td{
     width: 15vw;
     height: auto;
     background-color: #fafafa;
-    /* border-bottom: 3px solid black; */
+    border-bottom: 3px solid black;
     padding: 20px 0;
 }
 
@@ -59,8 +59,8 @@ tbody tr td{
     width: 15vw;
     height: auto;
     padding: 30px 10px;
-    /* border-bottom: 1px solid black; */
-    /* width: 100%; */
+    border-bottom: 1px solid black;
+    width: 100%;
     background-color: #ececec;
 }
 
@@ -71,7 +71,7 @@ tbody tr td:first-child{
 tbody tr td:last-child{
     border-radius: 0 5px 5px 0;
     width: 5vw;
-}
+} */
 
 .input{
     font-size: 12px;
@@ -95,7 +95,7 @@ tbody tr td button{
     text-align: right;
 }
 
-a{  background-color: rgb(217, 255, 128);
+.back_page a{  background-color: rgb(217, 255, 128);
     border-radius: 6px;
     padding: 5px 8px;
     margin: auto 30px;

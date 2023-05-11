@@ -30,41 +30,53 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>登録</title>
     <link rel="stylesheet" href="./assets/css/reset.css">
-    <link rel="stylesheet" href="./assets/css/style_create.css">
+    <link rel="stylesheet" href="./assets/css/style.css">
     <link href="https://use.fontawesome.com/releases/v5.6.1/css/all.css" rel="stylesheet">
 </head>
-<body>
-<form method="POST" action="">
-        <h2>データ登録</h2>
-        <div>
-            登録日付：
-            <input type="date" name="date" value="">
-            <br><br>
-        </div>
-        <div>
-            登録内容：
-            <input type="text" name="product" value="">
-            <br><br>
-        </div>
-        <div>
-            金額：
-            <input type="number" name="price" value="">
-            <br><br>
-        </div>
+<body class="create">
+    <div class="title">
+        <h2>新規データ登録</h2>
+    </div>
+    
+    <form method="POST" action="">
         <div>
             <div>
-                <input type="radio" name="type" value="0" checked>
-                収入
+                登録日付：
+                <input class="input" type="date" name="date" value="">
+                <!-- <br><br> -->
             </div>
             <div>
-                <input type="radio" name="type" value="1">
-                支出
+                登録内容：
+                <input class="input" id="input" type="text" name="product" value="">
+                <!-- <br><br> -->
+            </div>
+            <div>
+                金額：￥
+                <input class="input" type="number" name="price" value="">
+                <!-- <br><br> -->
             </div>
         </div>
-        <input type="submit" value="追加">
+
+        <div>
+            <div>
+                <!-- <div> -->
+                    <input type="radio" name="type" value="0" checked>
+                    収入
+                <!-- </div> -->
+                <!-- <div> -->
+                    <input type="radio" name="type" value="1">
+                    支出
+                <!-- </div> -->
+            </div>
+        </div>
+
+        <input class="submit" type="submit" value="＋新規登録">
     </form>
 
-    <a href="./index.php">一覧に戻る</a>
+    <div class="back_page">
+         <a href="./index.php">一覧に戻る</a>
+    </div>
+
     
 </body>
 </html>

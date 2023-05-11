@@ -43,10 +43,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="./assets/css/reset.css">
-    <link rel="stylesheet" href="./assets/css/style_edit.css">
+    <link rel="stylesheet" href="./assets/css/style.css">
     <link href="https://use.fontawesome.com/releases/v5.6.1/css/all.css" rel="stylesheet">
 </head>
-<body class="edit_body">
+<body class="edit">
     <div>
         <h2 class="title">履歴更新</h2>
     </div>
