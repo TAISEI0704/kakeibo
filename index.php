@@ -35,7 +35,7 @@
     </div>
 
     <div>
-        <button class="create"><a href="./create.php" class="register_button">+新規登録</a></button>
+        <button class="create_button"><a href="./create.php" class="register_button">+新規登録</a></button>
     </div>
 
     <div class="record">

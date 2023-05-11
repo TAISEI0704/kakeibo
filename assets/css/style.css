@@ -11,7 +11,7 @@ h1{
     margin: 30px 0 20px 0;
 }
 
-.create{
+.create_button{
     padding: 5px 10px;
     margin: 15px;
     border: none;
@@ -139,14 +139,9 @@ tbody tr td a{
 
 /*  */
 
-/* .edit_body{
+/* body{
     padding: 10px;
-    margin:5px;
-}
-
-.edit_body thead tr th,
-.edit_body thead tr td{
-    width: 15vh;
+    background-color: antiquewhite;
 } */
 
 .edit div{
@@ -164,6 +159,60 @@ tbody tr td a{
     margin: 30px 0 10px 0;
     padding: 30px 0 0 0;
 }
+
+
+
+/* table{
+    margin: auto;
+    width: auto;
+    background-color: #f5f4f9;
+    border-radius: 5px;
+    border: 1px solid black;
+    border-collapse:separate;
+    border-spacing: 0px 5px;
+    table-layout: fixed;
+} */
+/* 
+thead tr th,
+thead tr td{
+    white-space: nowrap;
+    font-size: 15px;
+    text-align: center;
+    width: 15vw;
+    height: auto;
+    background-color: #fafafa;
+    border-bottom: 3px solid black;
+    padding: 20px 0;
+}
+
+thead tr th:first-child{
+    border-radius: 5px 0 0 5px;
+}
+
+thead tr td:last-child{
+    border-radius: 0 5px 5px 0;
+}
+
+tbody tr td{
+    white-space: nowrap;
+    font-size: 13px;
+    text-align: center;
+    width: 15vw;
+    height: auto;
+    padding: 30px 10px;
+    border-bottom: 1px solid black;
+    width: 100%;
+    background-color: #ececec;
+}
+
+tbody tr td:first-child{
+    border-radius: 5px 0 0 5px;
+}
+
+tbody tr td:last-child{
+    border-radius: 0 5px 5px 0;
+    width: 5vw;
+} */
 
 .input{
     font-size: 12px;
@@ -195,6 +244,22 @@ tbody tr td button{
     font-size: 15px;
 }
 
+/*  */
+
+
+
+
+/* body{
+    padding: 10px;
+    background-color: antiquewhite;
+} */
+
+/* .title{
+    font-size: 20px;
+    margin: 20px 0;
+    padding: 20px 0 10px 0;
+} */
+
 .create h2{
     margin: 20px 0;
     /* text-align: center; */
@@ -224,6 +289,17 @@ tbody tr td button{
     font-size: 15px;
 }
 
+
+.create .input{
+    font-size: 12px;
+    font-weight: 500;
+    width: 90px;
+    height: 18px;
+    padding: 5px;
+    border-radius: 3px;
+    border: 0.3px solid black;
+}
+
 #input{
     width: 110px;
 }
@@ -238,3 +314,17 @@ tbody tr td button{
     border: 0.3px solid black;
     border-radius: 5px;
 }
+
+/* .top-link{
+    display: block;
+    text-align: right;
+} */
+
+/* a{  background-color: rgb(217, 255, 128);
+    border-radius: 6px;
+    padding: 5px 8px;
+    margin: auto 30px;
+    text-decoration: none;
+    font-size: 15px;
+    position: relative;
+} */
