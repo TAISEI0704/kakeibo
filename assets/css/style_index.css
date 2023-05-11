@@ -12,7 +12,7 @@ h1{
 
 button{
     padding: 5px 10px;
-    margin: 20px;
+    margin: 15px;
     border: none;
     background-color: #ffc300;
     border-radius: 10%;
@@ -131,19 +131,6 @@ tbody td .edit_button{
 tbody td .delete_button{
     background-color: #fc4747;
     margin-right: 5px;
-}
-
-
-
-
-
-
-input{
-    font-size: 12px;
-    font-weight: 600;
-    width: 100px;
-    height: 20px;
-    padding: 5px 10px;
 }
 
 

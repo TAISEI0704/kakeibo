@@ -58,27 +58,33 @@
                     <th>登録日付</th>
                     <th>登録内容</th>
                     <th>金額</th>
+                    <th>収支</th>
                     <td></td>
-                    <td></td>
-                    <td></td>
+                    <!-- <td></td> -->
                 </tr>
             </thead>
             <tbody>
                 <?php foreach($histories as $history): ?>
                 <tr>
                     <!-- <td><?= $history['id']; ?></td> -->
-                    <td><input type="date" name="date" value="<?= $history['date']; ?>"></td>
-                    <td><input type="text" name="product" value="<?= $history['product']; ?>"></td>
-                    <td>￥<input type="number" name="price" value="<?= $history['price']; ?>"></td>
-                    <td><input type="radio" name="type" value="0" checked>収入</td>
-                    <td><input type="radio" name="type" value="1">支出</td>
+                    <td><input class="input" type="date" name="date" value="<?= $history['date']; ?>"></td>
+                    <td><input class="input" type="text" name="product" value="<?= $history['product']; ?>"></td>
+                    <td>￥<input class="input" type="number" name="price" value="<?= $history['price']; ?>"></td>
+                    <!-- <td></td> -->
+                    <td>
+                        <input type="radio" name="type" value="0" checked>収入
+                        <input type="radio" name="type" value="1">支出
+                    </td>
                     <td><button type="submit">更新</button></td>
                 </tr>
                 <?php endforeach ?>
             </tbody>
         </table>
     </form>
-
-    <a href="./index.php">一覧に戻る</a>
+    
+    <div class="back_page">
+         <a href="./index.php">一覧に戻る</a>
+    </div>
+    
 </body>
 </html>
