@@ -46,7 +46,7 @@
     <link rel="stylesheet" href="./assets/css/style.css">
     <link href="https://use.fontawesome.com/releases/v5.6.1/css/all.css" rel="stylesheet">
 </head>
-<body>
+<body class="edit_body">
     <div>
         <h2 class="title">履歴更新</h2>
     </div>
