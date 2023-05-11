@@ -34,11 +34,6 @@ a{
     color: #f5f4f9;
 }
 
-/* div{
-    width: auto;
-    height: auto;
-} */
-
 .record{
     /* background-color: aqua; */
     padding: 5px;
@@ -96,6 +91,10 @@ thead tr td:last-child{
     border-radius: 0 5px 5px 0;
 }
 
+table tr:nth-child(even){
+  background-color: #a83b3b;
+}
+
 tbody tr td{
     white-space: nowrap;
     font-size: 15px;
@@ -104,7 +103,6 @@ tbody tr td{
     height: auto;
     padding: 40px 5px;
     /* border-bottom: 1px solid black; */
-    /* width: 100%; */
     background-color: #ececec;
 }
 
@@ -116,10 +114,6 @@ tbody tr td:last-child{
     border-radius: 0 5px 5px 0;
     width: 5vw;
 }
-
-/* .edit{
-    padding: 0 5px 0 100px;
-} */
 
 tbody tr td a{
     padding: 3px;
@@ -139,10 +133,7 @@ tbody tr td a{
 
 /*  */
 
-/* body{
-    padding: 10px;
-    background-color: antiquewhite;
-} */
+
 
 .edit div{
     font-size: 20px;
@@ -159,60 +150,6 @@ tbody tr td a{
     margin: 30px 0 10px 0;
     padding: 30px 0 0 0;
 }
-
-
-
-/* table{
-    margin: auto;
-    width: auto;
-    background-color: #f5f4f9;
-    border-radius: 5px;
-    border: 1px solid black;
-    border-collapse:separate;
-    border-spacing: 0px 5px;
-    table-layout: fixed;
-} */
-/* 
-thead tr th,
-thead tr td{
-    white-space: nowrap;
-    font-size: 15px;
-    text-align: center;
-    width: 15vw;
-    height: auto;
-    background-color: #fafafa;
-    border-bottom: 3px solid black;
-    padding: 20px 0;
-}
-
-thead tr th:first-child{
-    border-radius: 5px 0 0 5px;
-}
-
-thead tr td:last-child{
-    border-radius: 0 5px 5px 0;
-}
-
-tbody tr td{
-    white-space: nowrap;
-    font-size: 13px;
-    text-align: center;
-    width: 15vw;
-    height: auto;
-    padding: 30px 10px;
-    border-bottom: 1px solid black;
-    width: 100%;
-    background-color: #ececec;
-}
-
-tbody tr td:first-child{
-    border-radius: 5px 0 0 5px;
-}
-
-tbody tr td:last-child{
-    border-radius: 0 5px 5px 0;
-    width: 5vw;
-} */
 
 .input{
     font-size: 12px;
@@ -244,21 +181,9 @@ tbody tr td button{
     font-size: 15px;
 }
 
+
 /*  */
 
-
-
-
-/* body{
-    padding: 10px;
-    background-color: antiquewhite;
-} */
-
-/* .title{
-    font-size: 20px;
-    margin: 20px 0;
-    padding: 20px 0 10px 0;
-} */
 
 .create h2{
     margin: 20px 0;
@@ -271,9 +196,6 @@ tbody tr td button{
     text-align: center;
     margin: 20px 0 10px 0;
     padding: 30px 0 30px 0;
-    /* display: flex;
-    align-items: center;
-    justify-content: space-around; */
 }
 
 .create form div{
@@ -323,19 +245,3 @@ tbody tr td button{
     background-color: #ffc300;
     border-radius: 10%;
 }
-
-
-
-/* .top-link{
-    display: block;
-    text-align: right;
-} */
-
-/* a{  background-color: rgb(217, 255, 128);
-    border-radius: 6px;
-    padding: 5px 8px;
-    margin: auto 30px;
-    text-decoration: none;
-    font-size: 15px;
-    position: relative;
-} */
