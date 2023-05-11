@@ -47,7 +47,11 @@ div{
     margin: 10px 5px;
 }
 
-h2{
+h2 {
+    font-size: 20px;
+}
+
+.title{
     text-align: center;
     font-size: 20px;
 }

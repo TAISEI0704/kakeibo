@@ -40,7 +40,7 @@
 
     <div class="record">
         <div>
-            <h2>履歴</h2>
+            <h2 class="title">履歴</h2>
         </div>
         
         <div class="table">

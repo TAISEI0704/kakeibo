@@ -48,7 +48,7 @@
 </head>
 <body>
     <div>
-        <h2>履歴更新</h2>
+        <h2 class="title">履歴更新</h2>
     </div>
 
     <form method="POST" action="">
