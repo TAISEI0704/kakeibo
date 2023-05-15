@@ -10,7 +10,7 @@
 
     $database = new Database();
     $histories = $database -> all();
-    var_dump($histories);
+    // var_dump($histories);
 
 ?>
 
