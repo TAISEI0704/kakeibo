@@ -10,7 +10,7 @@
 
     $database = new Database();
     $histories = $database -> all();
-    // var_dump($histories);
+    var_dump($histories);
 
 ?>
 
@@ -75,15 +75,15 @@
                         <td><?= $history['product']; ?></td>
                         <!-- <td><?= '￥'.$history['price']; ?></td> -->
                         <td>
-                            <? if ($history['type'] === 0){
+                            <?php if ($history['type'] === 0){
                                 echo '￥'.$history['price'];
                             }else{
                                 echo '';
                             } ?>
                         </td>
                         <td>
-                            <? if ($history['type'] === 1){
-                                echo '￥'.$history['price'];;
+                            <?php if ($history['type'] === 1){
+                                echo '￥'.$history['price'];
                             }else{
                                 echo '';
                             } ?>
